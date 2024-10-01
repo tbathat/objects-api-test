@@ -6,11 +6,12 @@ const Navbar = () => {
   return (
     <c.Flex
       position="fixed"
+      bg="#18222b"
       minH="65px"
       top="0"
       left="0"
       width="100%"
-      zIndex="1"
+      zIndex="99"
       borderBottom="1px solid #888"
       justify="space-around"
     >
@@ -33,8 +34,8 @@ const Navbar = () => {
         <Link to="/about">
           <c.Text>About</c.Text>
         </Link>
-        <Link to="/contact">
-          <c.Text>Contact</c.Text>
+        <Link to="/genre">
+          <c.Text>Genre</c.Text>
         </Link>
       </c.Flex>
 
